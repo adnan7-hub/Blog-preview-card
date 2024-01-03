@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Figtree', sans-serif!important;
+    display: grid;
+    place-items: center;
+    height: 94vh;
+    background-color: var(--color-yellow)!important;
+}
+
+:root {
+    --color-yellow:hsl(47, 88%, 63%);
+    --color-white:hsl(0, 0%, 100%);
+    --color-Grey: hsl(0, 0%, 50%);
+    --color-Black: hsl(0, 0%, 7%);
+}
+.learning {
+    border: 1px solid var(--color-Black);
+    box-shadow: 10px 8px 0 -1px var(--color-Black);
+}
+.learning .head-learning {
+    padding: 4px 10px;
+    background-color: var(--color-yellow);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 800;
+    width: 80px;
+}
+.learning .published {
+    font-size: 14px;
+}
+.learning h4 {
+    color: var(--color-Black);
+}
+.learning p {
+    color: var(--color-Grey);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.info-learning img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+.info-learning span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+### Neutral
+
+- White: 
+- 
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 600, 800
