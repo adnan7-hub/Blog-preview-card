@@ -32,7 +32,8 @@ body {
 .learning .published {
     font-size: 14px;
 }
-.learning h4 {
+.learning h2 {
+    font-size: 24px;
     color: var(--color-Black);
 }
 .learning p {
